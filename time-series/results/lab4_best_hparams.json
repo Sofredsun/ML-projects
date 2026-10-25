@@ -1,0 +1,38 @@
+{
+ "Apple|MLP-ReLU": {
+  "hidden": 128,
+  "lr": 0.003
+ },
+ "Apple|MLP-sigmoid": {
+  "hidden": 128,
+  "lr": 0.003
+ },
+ "Apple|LSTM": {
+  "hidden": 64,
+  "lr": 0.001
+ },
+ "Subway|MLP-ReLU": {
+  "hidden": 128,
+  "lr": 0.001
+ },
+ "Subway|MLP-sigmoid": {
+  "hidden": 32,
+  "lr": 0.003
+ },
+ "Subway|LSTM": {
+  "hidden": 64,
+  "lr": 0.001
+ },
+ "Energy|MLP-ReLU": {
+  "hidden": 128,
+  "lr": 0.001
+ },
+ "Energy|MLP-sigmoid": {
+  "hidden": 128,
+  "lr": 0.001
+ },
+ "Energy|LSTM": {
+  "hidden": 64,
+  "lr": 0.001
+ }
+}
