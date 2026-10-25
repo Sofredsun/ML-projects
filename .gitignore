@@ -1,0 +1,47 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+.conda/
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Shell
+.bash_history
+
+# Секреты
+.env
+kaggle.json
+
+# Данные, которые скачиваются отдельно (структура папок сохраняется через .gitkeep)
+computer-vision/data/*
+tabular/data/*
+automl/data/*
+automl/*.pdf
+time-series/data/fantasia/
+!*/data/.gitkeep
+
+# Веса моделей и чекпоинты обучения
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+runs/
+wandb/
+lightning_logs/

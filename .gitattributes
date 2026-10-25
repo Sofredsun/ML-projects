@@ -1,0 +1,13 @@
+# Единые окончания строк в репозитории
+* text=auto
+
+*.ipynb text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.json  text eol=lf
+
+# Бинарные файлы
+*.npz binary
+*.png binary
+*.jpg binary
