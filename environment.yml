@@ -1,0 +1,14 @@
+# Окружение для всех ноутбуков репозитория
+#   conda env create -f environment.yml
+#   conda activate ml-projects
+#   python -m ipykernel install --user --name ml-projects --display-name "Python (ml-projects)"
+name: ml-projects
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - notebook
+  - pip:
+      - -r requirements.txt
