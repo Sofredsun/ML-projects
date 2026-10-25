@@ -1,0 +1,20 @@
+{
+  "arch": {
+    "block": "resnet",
+    "n_blocks": 6,
+    "d_hidden": 410,
+    "activation": "relu",
+    "norm": "layer",
+    "dropout": 0.3243779003336238,
+    "num_emb": "none"
+  },
+  "train": {
+    "preprocessing": "standard",
+    "lr": 0.00029286718435157544,
+    "weight_decay": 0.005910741784168059,
+    "batch_size": 512,
+    "scheduler": "constant"
+  },
+  "val_nrmse": 0.2702530766458306,
+  "n_params": 4054901
+}
